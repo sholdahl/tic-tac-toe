@@ -1,0 +1,141 @@
+/* Body and Title */
+
+body{
+    background: rgb(239,225,255);
+background: radial-gradient(circle, rgba(239,225,255,1) 0%, rgba(213,199,255,1) 81%);
+}
+
+#title {
+    color: white;
+    letter-spacing: 0.5em;
+    text-transform: uppercase;
+    font-size: 40px;
+    margin-right: -0.5em;
+}
+
+.title-container{
+    padding: 39px 0;
+    margin: auto;
+    max-width: 650px;
+    background-color: #5648ff;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-top: 20px;
+}
+
+h2{
+    margin: 0;
+}
+
+/* Game Board */
+
+#game-board{
+    max-width: 650px;
+    margin: auto;
+}
+
+.board-position{
+   background-color: whitesmoke;
+   border: 0.1px solid #BCAEFF;
+   color: #5648ff;
+}
+.board-position h1{
+    margin: 0;
+    min-height: 48px;
+}
+
+#p0{
+    border-bottom-left-radius: 20px;
+}
+
+#p2{
+    border-bottom-right-radius: 20px;
+}
+
+/* Player Cards */
+
+.player-card-container{
+    margin-top: 20px;
+}
+
+.player-card-container h2{
+    margin: 0;
+}
+.player-title{
+    background-color: whitesmoke;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border: 5px solid #5648ff;
+    padding: 10px;
+    color: #5648ff;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+    transition: all 0.3s ease-in-out;
+    margin-right: -0.3em;
+}
+
+.player-mark{
+    background-color: whitesmoke;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 10px;
+    color: #5648ff
+}
+
+.player-card-row{
+    max-width: 650px;
+    margin: auto;
+}
+
+#p1-card{
+    padding-left: 0;
+}
+
+
+.active{
+    color: white;
+    background-color: #5648ff;
+    transition: all 0.3s ease-in-out;
+}
+
+#p2-card{
+    padding-right: 0;
+}
+
+.player-card-row{
+    margin-bottom: 20px;
+}
+
+.restart-btn{
+    width: 100%;
+    text-align: center;
+    background-color: whitesmoke;
+    border: 5px solid #5648ff;
+    border-radius: 20px;
+    padding: 10px 0;
+    color: #5648ff;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+    transition: all 0.3s ease-in-out;
+}
+
+.restart-btn-col{
+    margin: auto;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.restart-container{
+    max-width: 650px;
+    margin: auto;
+}
+
+.restart-btn:hover{
+    background-color: #5648ff;
+    color: whitesmoke;
+    transition: all 0.3s ease-in-out;
+}
+
+.restart-btn:focus{
+    outline: none;
+}

@@ -7,12 +7,40 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <title>Tic Tac Toe</title>
+    <title>Tic-Tac-Toe</title>
 </head>
 
 <body>
     <div class="container">
-        
+        <div class="row title-container">
+            <div class="col-12"><h1 class="text-center" id="title">Tic-Tac-Toe</h1> </div>         
+        </div>
+        <div class="row" id="game-board">
+            <div class="col-4 text-center py-5 board-position" id="p6"><h1></h1></div>
+            <div class="col-4 text-center py-5 board-position" id="p7"><h1></h1></div>
+            <div class="col-4 text-center py-5 board-position" id="p8"><h1></h1></div>
+            <div class="col-4 text-center py-5 board-position" id="p3"><h1></h1></div>
+            <div class="col-4 text-center py-5 board-position" id="p4"><h1></h1></div>
+            <div class="col-4 text-center py-5 board-position" id="p5"><h1></h1></div>
+            <div class="col-4 text-center py-5 board-position" id="p0"><h1></h1></div>
+            <div class="col-4 text-center py-5 board-position" id="p1"><h1></h1></div>
+            <div class="col-4 text-center py-5 board-position" id="p2"><h1></h1></div>
+        </div>
+        <div class="row player-card-row">
+            <div class="col-6 text-center player-card-container" id="p1-card">
+                <div class="col-12 player-title active"><h2>Player 1</h2></div>
+                <div class="col-12 player-mark"><h2>X</h2></div>
+            </div>
+            <div class="col-6 text-center player-card-container" id="p2-card">
+                <div class="col-12 player-title"><h2>Player 2</h2></div>
+                <div class="col-12 player-mark"><h2>O</h2></div>
+            </div>
+        </div>
+        <div class="row restart-container">
+            <div class="col-6 text-center restart-btn-col">
+                <button class="restart-btn hidden"><h2>Restart</h2></button>
+            </div>
+        </div>
     </div>
     <script src="main.js"></script>
 </body>
